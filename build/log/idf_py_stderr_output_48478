@@ -1,0 +1,38 @@
+[0;33m--- idf_monitor on /dev/ttyACM0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081030: call_start_cpu1 at /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081030: call_start_cpu1 at /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081030: call_start_cpu1 at /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081030: call_start_cpu1 at /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081030: call_start_cpu1 at /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+Exception in thread Thread-2 (_run_outer):
+Traceback (most recent call last):
+  File "/usr/lib64/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib64/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/arihant-jammar/.espressif/python_env/idf5.2_py3.11_env/lib64/python3.11/site-packages/esp_idf_monitor/base/stoppable_thread.py", line 47, in _run_outer
+    self.run()
+  File "/home/arihant-jammar/.espressif/python_env/idf5.2_py3.11_env/lib64/python3.11/site-packages/esp_idf_monitor/base/serial_reader.py", line 100, in run
+    self.close_serial()
+  File "/home/arihant-jammar/.espressif/python_env/idf5.2_py3.11_env/lib64/python3.11/site-packages/esp_idf_monitor/base/serial_reader.py", line 105, in close_serial
+    self.set_closing_wait(delay_sec=1)
+  File "/home/arihant-jammar/.espressif/python_env/idf5.2_py3.11_env/lib64/python3.11/site-packages/esp_idf_monitor/base/serial_reader.py", line 128, in set_closing_wait
+    fcntl.ioctl(self.serial.fd, termios.TIOCSSERIAL, buf)
+PermissionError: [Errno 1] Operation not permitted
+[0m

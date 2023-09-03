@@ -621,3 +621,10 @@
 /home/arihant-jammar/Documents/ELL787/Project/ell787-project/build/esp-idf/main/CMakeFiles/install.dir
 /home/arihant-jammar/Documents/ELL787/Project/ell787-project/build/esp-idf/main/CMakeFiles/install/local.dir
 /home/arihant-jammar/Documents/ELL787/Project/ell787-project/build/esp-idf/main/CMakeFiles/install/strip.dir
+/home/arihant-jammar/Documents/ELL787/Project/ell787-project/build/esp-idf/components/CMakeFiles/__idf_components.dir
+/home/arihant-jammar/Documents/ELL787/Project/ell787-project/build/esp-idf/components/CMakeFiles/edit_cache.dir
+/home/arihant-jammar/Documents/ELL787/Project/ell787-project/build/esp-idf/components/CMakeFiles/rebuild_cache.dir
+/home/arihant-jammar/Documents/ELL787/Project/ell787-project/build/esp-idf/components/CMakeFiles/list_install_components.dir
+/home/arihant-jammar/Documents/ELL787/Project/ell787-project/build/esp-idf/components/CMakeFiles/install.dir
+/home/arihant-jammar/Documents/ELL787/Project/ell787-project/build/esp-idf/components/CMakeFiles/install/local.dir
+/home/arihant-jammar/Documents/ELL787/Project/ell787-project/build/esp-idf/components/CMakeFiles/install/strip.dir

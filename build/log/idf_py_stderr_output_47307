@@ -1,0 +1,10 @@
+CMake Error at /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/tools/cmake/build.cmake:268 (message):
+  Failed to resolve component 'esp_flash'.
+Call Stack (most recent call first):
+  /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/tools/cmake/build.cmake:310 (__build_resolve_and_add_req)
+  /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/tools/cmake/build.cmake:599 (__build_expand_requirements)
+  /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/tools/cmake/project.cmake:548 (idf_build_process)
+  CMakeLists.txt:6 (project)
+
+
+ninja: error: rebuilding 'build.ninja': subcommand failed
