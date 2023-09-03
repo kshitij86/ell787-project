@@ -1,0 +1,85 @@
+[0/1] Re-running CMake...
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /home/arihant-jammar/Documents/ELL787/Project/ell787-project/sdkconfig
+-- Compiler supported targets: xtensa-esp32-elf
+-- App "smart_clock" version: 6372a57-dirty
+-- Adding linker script /home/arihant-jammar/Documents/ELL787/Project/ell787-project/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bme280 bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash nvs_sec_provider openthread partition_table perfmon protobuf-c protocomm pthread sdmmc sensor soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/app_trace /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/app_update /home/arihant-jammar/Documents/ELL787/Project/ell787-project/components/bme280 /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/bootloader /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/bootloader_support /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/bt /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/cmock /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/console /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/cxx /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/driver /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/efuse /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/esp-tls /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/esp_adc /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/esp_app_format /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/esp_bootloader_format /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/esp_coex /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/esp_common /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/esp_eth /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/esp_event /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/esp_gdbstub /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/esp_hid /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/esp_http_client /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/esp_http_server /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/esp_https_ota /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/esp_https_server /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/esp_hw_support /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/esp_lcd /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/esp_local_ctrl /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/esp_mm /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/esp_netif /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/esp_netif_stack /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/esp_partition /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/esp_phy /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/esp_pm /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/esp_psram /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/esp_ringbuf /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/esp_rom /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/esp_system /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/esp_timer /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/esp_wifi /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/espcoredump /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/esptool_py /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/fatfs /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/freertos /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/hal /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/heap /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/http_parser /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/idf_test /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/ieee802154 /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/json /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/log /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/lwip /home/arihant-jammar/Documents/ELL787/Project/ell787-project/main /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/mbedtls /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/mqtt /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/newlib /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/nvs_flash /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/nvs_sec_provider /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/openthread /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/partition_table /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/perfmon /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/protobuf-c /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/protocomm /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/pthread /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/sdmmc /home/arihant-jammar/Documents/ELL787/Project/ell787-project/components/sensor /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/soc /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/spi_flash /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/spiffs /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/tcp_transport /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/ulp /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/unity /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/usb /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/vfs /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/wear_levelling /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/wifi_provisioning /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/wpa_supplicant /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/xtensa
+-- Configuring done (1.7s)
+-- Generating done (0.2s)
+-- Build files have been written to: /home/arihant-jammar/Documents/ELL787/Project/ell787-project/build
+[1/12] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+[2/12] Performing build step for 'bootloader'
+[1/1] cd /home/arihant-jammar/Documents/ELL787/Project/ell787-project/build/bootloader/esp-idf/esptool_py && /home/arihant-jammar/.espressif/python_env/idf5.2_py3.11_env/bin/python /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/arihant-jammar/Documents/ELL787/Project/ell787-project/build/bootloader/bootloader.bin
+Bootloader binary size 0x68d0 bytes. 0x730 bytes (6%) free.
+[3/12] No install step for 'bootloader'
+[4/12] Building C object esp-idf/sensor/CMakeFiles/__idf_sensor.dir/sensor_module.c.obj
+/home/arihant-jammar/Documents/ELL787/Project/ell787-project/components/sensor/sensor_module.c:22: warning: "BME280_CHIP_ID_READ_SUCCESS" redefined
+   22 | #define BME280_CHIP_ID_READ_SUCCESS "Successfully read the chip id for BME280 sensor\n"
+      | 
+In file included from /home/arihant-jammar/Documents/ELL787/Project/ell787-project/components/sensor/sensor_module.c:17:
+/home/arihant-jammar/Documents/ELL787/Project/ell787-project/components/bme280/include/bme280.h:488: note: this is the location of the previous definition
+  488 | #define BME280_CHIP_ID_READ_SUCCESS     ((u8)0)
+      | 
+[5/12] Completed 'bootloader'
+[6/12] Linking C static library esp-idf/sensor/libsensor.a
+[7/12] Linking C static library esp-idf/main/libmain.a
+[8/12] Generating ld/sections.ld
+[9/12] Linking CXX executable smart_clock.elf
+[10/12] Generating binary image from built executable
+esptool.py v4.7.dev1
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /home/arihant-jammar/Documents/ELL787/Project/ell787-project/build/smart_clock.bin
+[11/12] cd /home/arihant-jammar/Documents/ELL787/Project/ell787-project/build/esp-idf/esptool_py && /home/arihant-jammar/.espressif/python_env/idf5.2_py3.11_env/bin/python /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/arihant-jammar/Documents/ELL787/Project/ell787-project/build/partition_table/partition-table.bin /home/arihant-jammar/Documents/ELL787/Project/ell787-project/build/smart_clock.bin
+smart_clock.bin binary size 0x319f0 bytes. Smallest app partition is 0x100000 bytes. 0xce610 bytes (81%) free.
+[11/12] cd /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf -D "SERIAL_TOOL=/home/arihant-jammar/.espressif/python_env/idf5.2_py3.11_env/bin/python;;/home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/home/arihant-jammar/Documents/ELL787/Project/ell787-project/build -P /home/arihant-jammar/Documents/ELL787/Project/ESP-IDF/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool.py --chip esp32 -p /dev/ttyACM0 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 2MB 0x1000 bootloader/bootloader.bin 0x10000 smart_clock.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.7.dev1
+Serial port /dev/ttyACM0
+Connecting.....
+Chip is ESP32-D0WDQ6-V3 (revision v3.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: d4:d4:da:5a:af:68
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x00041fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 26832 bytes to 16851...
+Writing at 0x00001000... (50 %)
+Writing at 0x0000767b... (100 %)
+Wrote 26832 bytes (16851 compressed) at 0x00001000 in 0.8 seconds (effective 257.4 kbit/s)...
+Hash of data verified.
+Compressed 203248 bytes to 111977...
+Writing at 0x00010000... (14 %)
+Writing at 0x0001d008... (28 %)
+Writing at 0x00022b53... (42 %)
+Writing at 0x00028d23... (57 %)
+Writing at 0x0002f0ff... (71 %)
+Writing at 0x00036ec7... (85 %)
+Writing at 0x0003c9ef... (100 %)
+Wrote 203248 bytes (111977 compressed) at 0x00010000 in 2.8 seconds (effective 587.0 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.1 seconds (effective 376.8 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
